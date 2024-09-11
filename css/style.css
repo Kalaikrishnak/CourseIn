@@ -1143,6 +1143,9 @@
   border-radius: 10px;
  min-width: 500px;
   margin-left: 50px;
+  animation: reviewslight 30s ease-in infinite .5s normal;
+  position: relative;
+  right: 0;
 
 
   /* height: 300px; */
