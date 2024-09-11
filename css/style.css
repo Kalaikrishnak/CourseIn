@@ -1123,7 +1123,7 @@
 .one-fifth-review{
   display: flex;
   /* flex-wrap: wrap; */
-  /* overflow:scroll; */
+  overflow:hidden;
   position: relative;
   justify-content: space-between;
   flex-direction: row;
