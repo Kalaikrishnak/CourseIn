@@ -1239,6 +1239,7 @@
 footer{
 .aboutfooter{
   margin-top: 50px;
+  background-color:#ece1f0;
   
   .last-title{
     text-align: center;
@@ -1415,6 +1416,7 @@ footer{
 .fth-width-about{
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 50px;
   .copyrights{
     margin-top: 50px;
     border-top:2px solid rgb(73, 60, 60,0.8) ;
@@ -1435,6 +1437,103 @@ a:hover{
     
   }
 }
+/* home end  *
+/* about us start */
+.about-us{
+  background-color: #ece1f0;
+  .width-maintain{
+    
+    .about-title{ 
+      text-align: center; 
+      .title1{
+        padding-top: 200px;
+        display: flex;
+        justify-content: center;
+        h2{
+          margin-left: 20px;
+          font-family: pop-ins-md;
+        }
+       
+      }
+      h3{
+        font-family: pop-ins-md;
+        font-size:45px;
+        margin-top: 30px;
+        text-align: center;
+        color: #292828;
+        
+      }
+      p{
+        max-width: 1000px;
+        line-height: 1.498;
+        font-family: pop-ins-lt;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+       
+      }
+    }
+    .about-inters{
+      margin-top: 50px;
+      align-items: center;
+      display: flex;
+      background-image: linear-gradient(to left, rgb(160, 93, 214),rgb(43, 43, 221));
+      padding: 50px 10px;
+      justify-content: space-around;
+      h2{
+        color:#fff;
+        font-family: pop-ins-ex-bold;
+        font-size: 40px;
+        span{
+          display: block;
+        }
+      }
+      p{
+        font-family: pop-ins-md;
+        color: #fff;
+        max-width: 500px;
+      }
+      
+
+
+     
+      a{
+        font-size: 25px;
+        /* text-align: center; */
+        color: #192335;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-family: pop-ins-md;
+        position: relative;
+        justify-content: space-evenly;
+        i{
+          margin-left: 10px;
+          
+        }
+        i:first-child{
+          display: none;
+        }
+        
+       }
+       a:hover{
+        background-color: rgb(13, 95, 177);
+        transition: .7s ease-in-out;
+        color: #fff;
+        i:last-child{
+          display: none;
+        }
+        i:first-child{
+          display: inline;
+          padding-left: -20px;
+        }
+        
+       }
+    }
+    /* content  end */
+  }
+}
+/* home ments */
 
       
   
