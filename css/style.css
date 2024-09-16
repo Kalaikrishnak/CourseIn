@@ -111,9 +111,50 @@
   align-items: center;
 }
 .course-in-details .course-button .icon,
+.courselist1{
+  position: relative;
+  .course-title{
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  }
 .iconline {
-  display: inline-block;
+  position: relative; 
+  margin-left: 10px;
+  font-family: pop-ins-md;
+  color:#6b7385;
 }
+.list1 a{
+  display: block;
+  color:#6b7385;
+  font-size: 20px;
+  &:hover{  
+   color: #0117df;  
+  }
+
+ }
+ .list1{
+  position: absolute;
+  min-width: 300px;
+  text-align: start;
+  background-color: #fff;
+  padding: 20px;
+  font-family: pop-ins-md;
+  border-radius: 10px;
+  top: 175%;
+  display: none;
+
+  box-shadow: 0px 0px 20px 20px rgb(153, 142, 142,0.2);
+ }
+
+ &:hover .list1{
+  display: block;
+  
+ }
+}
+
+
+
 .nav li {
   display: inline-block;
   width: auto;
