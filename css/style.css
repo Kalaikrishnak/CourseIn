@@ -1146,9 +1146,10 @@
 }
 /* foooter section start in about */
 footer {
+  
   .aboutfooter {
     margin-top: 50px;
-    background-color: #ece1f0;
+    background-color: #f0eded;
 
     .last-title {
       text-align: center;
@@ -1203,8 +1204,11 @@ footer {
       }
     }
     .about-us {
+      padding-top: 70px;
+      padding-inline: 10px;
       display: flex;
       flex-wrap: wrap;
+      padding-bottom: 100px;
       .about-content {
         flex-basis: 24%;
 
@@ -1304,7 +1308,7 @@ footer {
   margin-top: 50px;
   .copyrights {
     margin-top: 50px;
-    border-top: 2px solid rgb(73, 60, 60, 0.8);
+    border-top: 2px solid rgba(134, 123, 123, 0.2);
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -1324,7 +1328,7 @@ footer {
 /* home end  *
 /* about us start */
 .about-us {
-  background-color: #ece1f0;
+  background-color: #ede6f0;
   .width-maintain {
     .about-title {
       text-align: center;
@@ -1654,12 +1658,12 @@ footer {
             color: #192335;
           }
         }
-        &:hover{
+        &:hover {
           background-color: whitesmoke;
           transform: scale(1.1);
           border-radius: 5px;
-          transition: .3s ease;
-          box-shadow: 0px 0px 19px 10px rgb(17, 15, 15,0.1);
+          transition: 0.3s ease;
+          box-shadow: 0px 0px 19px 10px rgb(17, 15, 15, 0.1);
         }
       }
     }
@@ -1752,8 +1756,210 @@ footer {
           margin-top: 20px;
           transition: 0.6s;
         }
-       
+      }
+    }
+    .anchour-over {
+      margin-top: 100px;
+      text-align: center;
+      a {
+        text-align: center;
+
+        border: 6px solid;
+        border-image-source: linear-gradient(to right, blue, pink);
+        border-width: 3px;
+        border-image-slice: 3;
+        padding: 15px 30px;
+        font-size: 20px;
+        color: #192335;
+        font-family: pop-ins-md;
+        margin-top: 50px;
+
+        text-align: center;
+        i {
+          margin-left: 6px;
+        }
+        &:hover {
+          color: #0117df;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+  .hire-contact-stu {
+    margin-top: 100px;
+    background-color: rgb(212, 150, 160, 0.1);
+    padding: 30px;
+    .contact-title {
+      text-align: center;
+      h3 {
+        color: magenta;
+        font-family: pop-ins-reg;
+        background-color: #e9d9db;
+        display: inline;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 20px;
+      }
+      h4 {
+        font-family: pop-ins-md;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: pop-ins-md;
+        color: #192335;
+        font-size: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+      }
+    }
+    .contact-about {
+      margin-top: 50px;
+      display: flex;
+      /* flex-wrap: wrap; */
+      .img-contact {
+        img {
+          max-height: 700px;
+          box-shadow: 0px 0px 20px 10px rgb(126, 123, 123, 0.2);
+          border-radius: 10px;
+        }
+      }
+    }
+    .forms-group {
+      margin-top: 30px;
+      margin-left: 50px;
+      background-color: rgb(255, 252, 252);
+      padding: 20px;
+      box-shadow: 0px 0px 20px 10px rgb(92, 88, 88,0.2);
+      border-radius:10px;
+      .head-form {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #d3d3d3;
+        h2 {
+          font-size: 40px;
+          font-family: pop-ins-ex-bold;
+        }
+      }
+      form {
+        .input-tags-container {
+          position: relative;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .inputtags {
+            flex-basis: 45%;
+
+            margin-top: 40px;
+            
+            label {
+              position: absolute;
+              font-size: 17px;
+              color: #192335;
+              top: 10%;
+              left: 10px;
+              font-family: pop-ins-md;
+              z-index: -1;
+            }
+            input {
+              border: none;
+              height: 30px;
+              border: 2px solid #e6e3f1;
+              width: 100%;
+              height: 50px;
+              font-size: 20px;
+              letter-spacing: 1px;
+              outline: none;
+              z-index: 50;
+              padding-left: 15px;
+              /* background-color: whitesmoke; */
+              &:hover{
+            
+                height: 50px;
+                border: 3px solid blue;
+                background: none;
+                transition: 0.4s;
+                width: 100%;
+              }
+            }
+            &:hover label {
+              display: none;
+              z-index: -10;
+            }
+           
+          }
+        }
+        .jopdescription{
+          width: 100%;
+          margin-top: 20px;
+          textarea {
+            resize: none;
+            min-height: 163px;
+            outline: none;
+            border:2px solid #d3d3d3;
+            font-size: 20px;
+            font-family: pop-ins-md;
+            padding-left: 15px;
+            width: 100%;
+            
+          }
+          &:hover{
+            border: 2px solid blue;
+
+          } 
+        }
+        button{
+          width: 100%;
+          padding: 15px 30px;
+          margin-top: 20px;
+          font-size: 20px;
+          outline: none;
+          border: none;
+          color: #fff;
+          background-image: linear-gradient(to right,rgb(74, 74, 221),rgb(224, 72, 224));
+          i{
+            margin-left: 10px;
+
+          }
+          &:hover{
+            background-image: linear-gradient(to left,rgb(101, 101, 224),rgb(201, 33, 173));
+            transition:.9s;
+          }
+          
+          
+        }
       }
     }
   }
 }
+/* End in hire student  contanct */
+/* start career in student */
+.career{
+  .hire-stu{
+  .hire-contact-stu{
+    padding-top: 100px;
+    margin-top: 0;
+  }
+  .forms-group{
+    h3{
+      font-family: pop-ins-lt;
+      background-color: #e0e7e9;
+      display: inline;
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+      color: blue;
+      
+
+    }
+    h2{
+      margin-top: 20px;
+    }
+  }
+}
+}
+/* career end */
+
+/* blogs st */
