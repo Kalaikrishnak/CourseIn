@@ -1918,6 +1918,7 @@ footer {
           outline: none;
           border: none;
           color: #fff;
+          cursor: pointer;
           background-image: linear-gradient(to right,rgb(74, 74, 221),rgb(224, 72, 224));
           i{
             margin-left: 10px;
