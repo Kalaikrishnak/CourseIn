@@ -64,6 +64,9 @@
   position: fixed;
   font-family: pop-ins-md;
   left: 5%;
+  transition: opactiy  3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
   margin-bottom: 100px;
   .subheader {
     background-color: lightgray;
@@ -2065,6 +2068,9 @@ footer {
     }
     .th-mentors {
       justify-content: center;
+      .mentors {
+        flex-basis: 80%;
+      }
     }
   }
   /* th-pg-end */
@@ -2098,42 +2104,215 @@ footer {
         h2 {
           font-size: 25px;
         }
-        a{
+        a {
           font-size: 25px;
           padding: 5px 15px;
         }
       }
       /* about st */
-      .fth-width-about{
-        .about-us{
+      .fth-width-about {
+        .about-us {
           flex-direction: column;
           padding-bottom: 50px;
           padding-top: 20px;
-          .about-content{
-            margin-top: 20px;
-            
-          }
-          .about-content2{
+          .about-content {
             margin-top: 20px;
           }
-
+          .about-content2 {
+            margin-top: 20px;
+          }
         }
       }
-      .copyrights{
+      .copyrights {
         flex-direction: column;
-        p{
+        p {
           font-size: 16px;
           display: block;
         }
-        .readmore{
-          a{
+        .readmore {
+          a {
             font-size: 16px;
           }
         }
-
       }
     }
   }
   /* end home pg end  */
   /* st about-pg- st */
+  .about-us {
+    .width-maintain {
+      .about-title {
+        .title1 {
+          padding-top: 100px;
+          display: block;
+        }
+        h3 {
+          font-size: 28px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+          padding-top: 20px;
+        }
+      }
+      .about-inters {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        p {
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+        .anchour-about {
+          margin-top: 20px;
+          a {
+            padding: 5px 10px;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+  .th-bottom-mentors {
+    .th-mentors {
+      justify-content: center;
+      .mentors {
+        flex-basis: 80%;
+      }
+    }
+  }
+  /* reviews -about  st */
+  .four-reviews {
+    .reviews-parent {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  /* end about pg */
+  /* carrer  st */
+  .hire-contact-stu {
+    padding: 20px;
+    .width-contain-contact {
+      .contact-about {
+        flex-direction: column;
+        .img-contact {
+          img {
+            width: 300px;
+          }
+        }
+        .forms-group {
+          margin-left: 0;
+          width: 100%;
+          .head-form {
+            h2 {
+              font-size: 25px;
+            }
+          }
+          form {
+            .input-tags-container {
+              flex-direction: column;
+              width: 95%;
+            }
+          }
+        }
+      }
+    }
+  }
+  /* carrer end */
+  /* hire from start */
+  .hire-stu {
+    .ft-pg-hire {
+      width: 90%;
+      margin: 0 auto;
+      .ft-title {
+        h2 {
+          font-size: 30px;
+          span {
+            font-size: 30px;
+          }
+        }
+        a {
+          font-size: 18px;
+          padding: 10px 20px;
+        }
+      }
+    }
+    .content-full {
+      flex-direction: column;
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .img-vertical {
+      .img-title {
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+      }
+      .img-content {
+        .width-maitain {
+          flex-direction: column;
+          margin-bottom: 20px;
+          .content1-img {
+            margin-bottom: 0;
+          }
+        }
+        a {
+          font-size: 18px;
+          padding: 10px 10px;
+          margin-top: 40px;
+        }
+      }
+    }
+    /* first  pg end */
+    /* st-pg-hire  carrer*/
+    .st-pg-hire {
+      .width-hire {
+        margin-top: 50px;
+        .sg-pg-title {
+          width: 90%;
+          margin: 0 auto;
+        }
+        .st-pg-content-hire {
+          .content2 {
+            flex-direction: column;
+            width: 90%;
+            margin: 0 auto;
+            flex-basis: 100%;
+            .content-hire {
+              margin-left: 0;
+              flex-basis: 100%;
+            }
+          }
+        }
+        
+      }
+      
+    }
+    .overlay-contain{
+      .overlay-content{
+        justify-content: space-evenly;
+      }
+    }
+  }
+  /* end hire students */
+  /* st student revew */
+  .sty-ft-pg{
+   .content-review{
+    background-size: 406%;
+    background-position: center;
+    height: 80vh;
+    h2{
+      font-size: 30px;
+    }
+    p{
+      font-size: 20px;
+    }
+   }
+  }
+  /* end-reviews */
 }
+/* end mobile view */
