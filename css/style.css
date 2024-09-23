@@ -2316,3 +2316,74 @@ footer {
   /* end-reviews */
 }
 /* end mobile view */
+/* start tablet view */
+@media (max-width:1024px) and (min-width:768px){
+  /* nav st pag st */
+  .maincontainer{
+    .width-container{
+      .header{
+        .subheader{
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+
+    }
+  }
+  /* end  nav secton */
+  .firstbanner {
+    width:80%;
+margin: 0 auto;
+    .bgbanner {
+      flex-direction: column-reverse;
+      .first-content {
+        flex-basis: 100%;
+        width: 90%;
+        margin-left: 20px;
+        margin: 0 auto;
+        .head-ft-content {
+          .anima-container {
+            .title {
+              font-size: 25px;
+            }
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+      .back-round {
+        img {
+          width: 300px;
+        }
+      }
+    }
+    .ft-center-content {
+      .ft-centet-value {
+        flex-wrap: wrap;
+        h2 {
+          font-size: 25px;
+          display: block;
+          flex-basis: 100%;
+        }
+        p {
+          flex-basis: 100%;
+        }
+      }
+    }
+    .ft-st-center {
+      .ft-cen-top-head {
+        h4 {
+          font-size: 25px;
+          flex-wrap: wrap;
+          p {
+            flex-basis: 100%;
+          }
+        }
+      }
+
+
+}
+
+  }
+}
