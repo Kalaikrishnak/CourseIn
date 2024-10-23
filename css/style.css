@@ -429,7 +429,8 @@
 /* first banner */
 .firstbanner {
   background-color: rgba(245, 236, 236, 0.89);
-  height: 100rem;
+  height: 103rem;
+  padding-bottom: 100rem;
   .bgbanner {
     display: flex;
     max-width: 1160px;
@@ -617,7 +618,7 @@
 
         margin-left: 30px;
         h2 {
-          font-size: 20px;
+          font-size: 18px;
           margin: 10px 0;
           span {
             display: block;
@@ -654,7 +655,7 @@
     .img-ct-ft:hover {
       border-radius: 20px;
       transform: scale(1.1);
-      padding: 10px;
+      /* padding: 10px; */
       transition: 0.9s;
     }
   }
@@ -695,7 +696,7 @@
 
 .second-pg {
   background-color: rgba(248, 224, 228, 0.5);
-  margin-top: 100px;
+  padding-top: 30px;
 }
 .second-width {
   max-width: 1160px;
@@ -855,6 +856,7 @@
   padding-top: 50px;
 
   margin-top: 50px;
+  padding-bottom: 50px;
   .th-bt-title {
     text-align: center;
 
@@ -880,6 +882,7 @@
     }
   }
   .th-mentors {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -931,6 +934,7 @@
 /* Reviews st Four */
 .four-reviews {
   margin-top: 100px;
+  
 }
 .width-maintain-four {
   max-width: 1160px;
@@ -1057,6 +1061,7 @@
 .fifth-pg {
   background-color: rgb(209, 130, 143, 0.1);
   margin-top: 70px;
+  padding-bottom: 50px;
 }
 .title-fith {
   text-align: center;
@@ -1149,9 +1154,10 @@
 }
 /* foooter section start in about */
 footer {
+  background-color: #ede6f0;
   .aboutfooter {
-    margin-top: 50px;
-    background-color: #f0eded;
+    /* margin-top: 10px; */
+   
 
     .last-title {
       text-align: center;
